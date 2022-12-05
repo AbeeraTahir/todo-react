@@ -27,6 +27,8 @@ const TodoItem = (props) => {
       setEditing(false);
     }
   };
+  useEffect(() => () => {
+  }, []);
   return (
     <li className={styles.item}>
       <div onDoubleClick={handleEditing} style={viewMode}>
