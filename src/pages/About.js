@@ -3,8 +3,8 @@ import { Link, Outlet } from 'react-router-dom';
 
 const About = () => (
   <div>
-    <ul>
-      <li>
+    <ul className="about__content">
+      <li className="about__list">
         <Link to="about-app">About App</Link>
       </li>
       <li>
